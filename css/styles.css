@@ -9,6 +9,7 @@
   --secondary-font: "Raleway", sans-serif;
   --modal-button-color: #188ce8;
   --secondary-button-color: #f5f4fa;
+  --secondary-background-color: #2f303a;
 }
 
 .list {
@@ -97,6 +98,9 @@ body {
 /* ================== END HEADER ==================== */
 
 /* ======================== HERO ==================== */
+.hero {
+  background-color: var(--secondary-background-color);
+}
 
 .hero-title {
   font-weight: 900;
@@ -173,7 +177,7 @@ body {
 }
 
 .section-footer {
-  background-color: #2f303a;
+  background-color: var(--secondary-background-color);
 }
 
 .contact-footer a {
